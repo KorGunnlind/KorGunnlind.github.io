@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 역사로 그리는 고전문학사
+published: true
 ---
 # 역사로 그리는 고전문학사
 
