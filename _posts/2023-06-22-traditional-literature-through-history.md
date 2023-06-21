@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: 역사로 그리는 고전문학사
 ---
 # 역사로 그리는 고전문학사
 
