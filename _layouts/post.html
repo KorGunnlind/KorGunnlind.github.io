@@ -6,14 +6,6 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <!-- utterance를 통한 댓글 기능 생성 -->
-  <script src="https://utteranc.es/client.js"
-          repo="KorGunnlind/KorGunnlind.github.io"
-          issue-term="pathname"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
-  </script>
 </div>
 
 {% if site.related_posts.size >= 1 %}
@@ -33,3 +25,12 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+<!-- utterance를 통한 댓글 기능 생성 -->
+<script src="https://utteranc.es/client.js"
+        repo="KorGunnlind/KorGunnlind.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
